@@ -96,12 +96,12 @@ void loop() {
       // Close connection
       client.stop();
       // Delay before checking sunlight again
-      delay(1000); // Check every 1 minute
+      delay(1000); 
     } else {
       Serial.println("Connection failed");
     }
   } else {
     // Delay before checking sunlight again
-    delay(1000); // Check every 1 minute
+    delay(1000);
   }
 }
